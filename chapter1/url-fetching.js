@@ -1,5 +1,5 @@
-import { urls } from "./utils/constant.js"
-import { formatDateandTime } from "./utils/helper.js"
+import { urls } from "../utils/constant.js"
+import { formatDateandTime } from "../utils/helper.js"
 
 // Sequential fetching using await
 async function fetchURLSSequentially() {
